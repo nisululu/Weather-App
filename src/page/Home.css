@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+}
+
+.intro{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.intro>span, .intro>div{
+    font-size: xx-large; 
+    color: #8e8e8e;
+}
+
+input[type="text"]{
+    width: auto;
+    outline: none;
+    border: none;
+    font-size: xx-large;
+}
+
+.currentWeather, .dailyWeathers {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.image{
+    width: 100px;
+}
+
+.dailyWeather {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.dailyImg{
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.day{
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.currentTemperature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currentTemperature>.temp{
+    color: rgba(0, 0, 0, 0.81);
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.additionalInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.additionalInformation>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span{
+    color: #8e8e8e;
+}
